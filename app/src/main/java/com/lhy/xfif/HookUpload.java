@@ -56,7 +56,8 @@ public class HookUpload implements IXposedHookLoadPackage {
                              * 上传时截取questionList，修改分数
                              */
                             //com.fifedu.tsdx.ui.activity.MainActivity initData 测试
-                            XposedHelpers.findAndHookMethod("com.fifedu.tsdx.ui.activity.report.challengereport.Report",
+                            XposedHelpers.findAndHookMethod("com.fifedu.kyxl_library_study.ui.activity.report.challengereport.CommonReportActivity",
+                                                            //com.fifedu.kyxl_library_study.ui.activity.report.challengereport.CommonReportActivity  com.fifedu.tsdx.ui.activity.report.challengereport.Report
                                     classLoader, "uploadAnsByCode", String.class, new XC_MethodHook() {
                                         @Override
                                         protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
