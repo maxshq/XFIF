@@ -19,10 +19,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tbruyelle.rxpermissions2.Permission;
-import com.tbruyelle.rxpermissions2.RxPermissions;
+// import com.tbruyelle.rxpermissions2.Permission;
+// import com.tbruyelle.rxpermissions2.RxPermissions;
 
-import io.reactivex.functions.Consumer;
+// import io.reactivex.functions.Consumer;
 
 public class MainActivity extends AppCompatActivity {
 
