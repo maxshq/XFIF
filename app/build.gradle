@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.maxsh.xfif'  // 👈 这个就是你要添加的内容
     compileSdkVersion 35
     defaultConfig {
         applicationId "com.lhy.xfif"
