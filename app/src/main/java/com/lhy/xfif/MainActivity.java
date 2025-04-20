@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private ConfigPreferences configPreferences;
 
     //RxPermissions
-    private final RxPermissions rxPermissions = new RxPermissions(this);
+    //private final RxPermissions rxPermissions = new RxPermissions(this);
     private final static String TAG = "MAIN_ACTIVITY";
 
     @Override
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //ANDROID 6.0以上申请权限
-        initPermissions();
+        //initPermissions();
         //初始化视图
         intiView();
         //初始化配置文件
